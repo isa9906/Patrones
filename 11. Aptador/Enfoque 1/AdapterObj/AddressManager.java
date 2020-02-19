@@ -3,7 +3,7 @@ import java.io.*;
 import java.io.*;
 import java.awt.*;
 import java.awt.event.*;
-import com.sun.java.swing.plaf.windows.*;
+//import com.sun.java.swing.plaf.windows.*;
 import javax.swing.*;
 
 public class AddressManager extends JFrame {
@@ -146,7 +146,7 @@ public class AddressManager extends JFrame {
     contentPane.add(UIPanel, BorderLayout.CENTER);
 
     try {
-      UIManager.setLookAndFeel(new WindowsLookAndFeel());
+      //UIManager.setLookAndFeel(new WindowsLookAndFeel());
       SwingUtilities.updateComponentTreeUI(
         AddressManager.this);
     } catch (Exception ex) {

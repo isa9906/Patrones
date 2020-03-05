@@ -142,7 +142,7 @@ public class FTPGUI extends JFrame {
 
     initialize();
     try {
-      UIManager.setLookAndFeel(new WindowsLookAndFeel());
+      //UIManager.setLookAndFeel(new WindowsLookAndFeel());
       SwingUtilities.updateComponentTreeUI(FTPGUI.this);
     } catch (Exception ex) {
       System.out.println(ex);

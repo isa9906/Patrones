@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
-import com.sun.java.swing.plaf.windows.*;
+//import com.sun.java.swing.plaf.windows.*;
 import java.util.*;
 
 public class FTPGUI extends JFrame {
@@ -141,7 +141,7 @@ public class FTPGUI extends JFrame {
 
     initialize();
     try {
-      UIManager.setLookAndFeel(new WindowsLookAndFeel());
+     // UIManager.setLookAndFeel(new WindowsLookAndFeel());
       SwingUtilities.updateComponentTreeUI(FTPGUI.this);
     } catch (Exception ex) {
       System.out.println(ex);

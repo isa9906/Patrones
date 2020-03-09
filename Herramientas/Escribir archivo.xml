@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2020-03-08 12:21:52">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_4F72533D_C37A_4902_A20F_040AF4A97EFE">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Escribir archivo" xmi.id="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_C73F4AA7_1DD3_4d19_B4E0_D9F73B111BBD"/>
+						<UML:TaggedValue tag="created" value="2020-02-15 12:14:08"/>
+						<UML:TaggedValue tag="modified" value="2020-02-15 12:14:08"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Isabel"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_4F72533D_C37A_4902_A20F_040AF4A97EFE_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole xmi.id="EAID_11D4B6BD_1F19_4e6f_B2EF_285938192E4F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Object"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="classifier" value="EAID_8FED7844_4690_4a03_9896_51D67F9A2D02"/>
+										<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+										<UML:TaggedValue tag="classname" value="FileOutputStream"/>
+										<UML:TaggedValue tag="date_created" value="2020-02-15 15:51:23"/>
+										<UML:TaggedValue tag="date_modified" value="2020-02-15 15:51:23"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Isabel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="150"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="dos" xmi.id="EAID_351CCAD3_1D74_4d87_A2A4_FA3842D73DFC" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Object"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="classifier" value="EAID_47E02982_A47B_4c5e_8E4C_EB19CA776B98"/>
+										<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+										<UML:TaggedValue tag="classname" value="DataOutputStream"/>
+										<UML:TaggedValue tag="date_created" value="2020-02-15 15:52:28"/>
+										<UML:TaggedValue tag="date_modified" value="2020-02-15 15:52:28"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Isabel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="151"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="sección interrumpible" xmi.id="EAID_7771356D_C559_4bb2_8429_5A7530607DEE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+										<UML:TaggedValue tag="date_created" value="2020-02-15 15:46:04"/>
+										<UML:TaggedValue tag="date_modified" value="2020-02-15 15:46:11"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Isabel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="145"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="dos" xmi.id="EAID_CA2E8902_F841_4ae5_9DFA_BF4D86F7F6DF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Object"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="classifier" value="EAID_47E02982_A47B_4c5e_8E4C_EB19CA776B98"/>
+										<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+										<UML:TaggedValue tag="classname" value="DataOutputStream"/>
+										<UML:TaggedValue tag="date_created" value="2020-02-15 15:56:23"/>
+										<UML:TaggedValue tag="date_modified" value="2020-02-15 15:56:23"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Isabel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="153"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole xmi.id="EAID_DAC4D8EF_2D13_4f02_9E9C_923A2E9BAEC7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Object"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="classifier" value="EAID_8FED7844_4690_4a03_9896_51D67F9A2D02"/>
+										<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+										<UML:TaggedValue tag="classname" value="FileOutputStream"/>
+										<UML:TaggedValue tag="date_created" value="2020-02-15 15:54:47"/>
+										<UML:TaggedValue tag="date_modified" value="2020-02-15 15:54:47"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Isabel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="152"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="dos" xmi.id="EAID_DE579814_F124_49e9_BBAA_9B3B7F280B46" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Object"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="classifier" value="EAID_47E02982_A47B_4c5e_8E4C_EB19CA776B98"/>
+										<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+										<UML:TaggedValue tag="classname" value="DataOutputStream"/>
+										<UML:TaggedValue tag="date_created" value="2020-02-15 15:47:40"/>
+										<UML:TaggedValue tag="date_modified" value="2020-02-15 15:47:51"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Isabel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="147"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="outFile" xmi.id="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Object"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="classifier" value="EAID_E9D890E1_2F4D_4868_A632_A072252E11B1"/>
+										<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+										<UML:TaggedValue tag="classname" value="File"/>
+										<UML:TaggedValue tag="date_created" value="2020-02-15 15:46:45"/>
+										<UML:TaggedValue tag="date_modified" value="2020-02-15 15:46:45"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Isabel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="146"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction>
+								<UML:Interaction xmi.id="EAID_4F72533D_C37A_4902_A20F_040AF4A97EFE_INT" name="EAID_4F72533D_C37A_4902_A20F_040AF4A97EFE_INT">
+									<UML:Interaction.message>
+										<UML:Message xmi.id="EAID_0F50EE51_F1DC_41a5_84DF_C8C775DB0F72" visibility="public" sender="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A" receiver="EAID_11D4B6BD_1F19_4e6f_B2EF_285938192E4F">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="4"/>
+												<UML:TaggedValue tag="subtype" value="New"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="114"/>
+												<UML:TaggedValue tag="ea_sourceName" value="outFile"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="146"/>
+												<UML:TaggedValue tag="ea_targetID" value="150"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-53;EX=0;EY=-53;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=486;PtStartY=-578;PtEndX=602;PtEndY=-578;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=1;Initiate=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="FileOutputStream(String, boolean)" xmi.id="EAID_DBE172A6_5B07_40f3_B8E9_76762D2EBD5E" visibility="public" sender="EAID_11D4B6BD_1F19_4e6f_B2EF_285938192E4F" receiver="EAID_11D4B6BD_1F19_4e6f_B2EF_285938192E4F">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="5"/>
+												<UML:TaggedValue tag="styleex" value="paramvalues=&quot;log.txt&quot;, true;aliasparamsTO=String, boolean;"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="params=;paramsDlg=fileName, t;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="115"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="150"/>
+												<UML:TaggedValue tag="ea_targetID" value="150"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=131:CY=13:OX=40:OY=15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=652;PtStartY=-613;PtEndX=657;PtEndY=-628;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value="FileOutputStream(&quot;log.txt&quot;, true)"/>
+												<UML:TaggedValue tag="operation_guid" value="{C8ACD8B4-9F78-4830-8542-ACFFF5C4C673}" xmi.id="EAID_BBBA6211_DD63_42f4_8A7C_CB1B66D13237"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="close()" xmi.id="EAID_787716E7_15D6_441e_B0D4_E1A704C26E0E" visibility="public" sender="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A" receiver="EAID_351CCAD3_1D74_4d87_A2A4_FA3842D73DFC">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="9"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="123"/>
+												<UML:TaggedValue tag="ea_sourceName" value="outFile"/>
+												<UML:TaggedValue tag="ea_targetName" value="dos"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="146"/>
+												<UML:TaggedValue tag="ea_targetID" value="151"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=26:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=481;PtStartY=-833;PtEndX=601;PtEndY=-833;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value="close()"/>
+												<UML:TaggedValue tag="operation_guid" value="{863BA72D-FB17-4d68-A019-AD277718870F}" xmi.id="EAID_13840D5F_D136_4689_850D_48340C36B85B"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="DataOutputStream()" xmi.id="EAID_8823F0B0_E763_4e2a_B65C_BF8020393E95" visibility="public" sender="EAID_351CCAD3_1D74_4d87_A2A4_FA3842D73DFC" receiver="EAID_351CCAD3_1D74_4d87_A2A4_FA3842D73DFC">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="7"/>
+												<UML:TaggedValue tag="styleex" value="paramvalues=new FileOutputStream(&quot;log.txt&quot;, true);"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="117"/>
+												<UML:TaggedValue tag="ea_sourceName" value="dos"/>
+												<UML:TaggedValue tag="ea_targetName" value="dos"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="151"/>
+												<UML:TaggedValue tag="ea_targetID" value="151"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=232:CY=13:OX=40:OY=15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=611;PtStartY=-744;PtEndX=616;PtEndY=-759;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value="DataOutputStream(new FileOutputStream(&quot;log.txt&quot;, t"/>
+												<UML:TaggedValue tag="operation_guid" value="{1FA00697-416F-423b-9503-94950FE1CF86}" xmi.id="EAID_5C1EF253_D278_45fa_887A_8EC5B7189B6E"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="writeBytes(String)" xmi.id="EAID_AEF5BFB9_C070_40a8_9B5A_15C6373E7C60" visibility="public" sender="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A" receiver="EAID_351CCAD3_1D74_4d87_A2A4_FA3842D73DFC">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="8"/>
+												<UML:TaggedValue tag="styleex" value="paramvalues=&quot;A Message to Log&quot;;aliasparamsTO=String;"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;params=;paramsDlg=msg;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="122"/>
+												<UML:TaggedValue tag="ea_sourceName" value="outFile"/>
+												<UML:TaggedValue tag="ea_targetName" value="dos"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="146"/>
+												<UML:TaggedValue tag="ea_targetID" value="151"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-19;EX=0;EY=0;$LLB=;LLT=;LMT=CX=127:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=481;PtStartY=-798;PtEndX=601;PtEndY=-798;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value="writeBytes(&quot;A Message to Log&quot;)"/>
+												<UML:TaggedValue tag="operation_guid" value="{AF53C84C-DAC9-4c0f-8854-5C6B565B85CE}" xmi.id="EAID_8E167631_6483_40b7_828E_A80D19CD6A9D"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message xmi.id="EAID_E7183253_494B_423d_BF99_0A7D04FE9B23" visibility="public" sender="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A" receiver="EAID_351CCAD3_1D74_4d87_A2A4_FA3842D73DFC">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="6"/>
+												<UML:TaggedValue tag="subtype" value="New"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="116"/>
+												<UML:TaggedValue tag="ea_sourceName" value="outFile"/>
+												<UML:TaggedValue tag="ea_targetName" value="dos"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="146"/>
+												<UML:TaggedValue tag="ea_targetID" value="151"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-61;EX=0;EY=0;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=481;PtStartY=-709;PtEndX=561;PtEndY=-709;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message xmi.id="EAID_51D7011C_1D1C_40cb_BC27_FA549AF6CF86" visibility="public" sender="EAID_D006C5B9_8308_4587_B740_E500A6DA3AC1" receiver="EAID_CA0ACCD2_7043_4955_8C1C_3BD3BC928CDA">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=boolean;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="1"/>
+												<UML:TaggedValue tag="ea_localid" value="132"/>
+												<UML:TaggedValue tag="ea_sourceName" value="catch"/>
+												<UML:TaggedValue tag="ea_targetName" value="out 4"/>
+												<UML:TaggedValue tag="ea_sourceType" value="InteractionFragment"/>
+												<UML:TaggedValue tag="ea_targetType" value="MessageEndpoint"/>
+												<UML:TaggedValue tag="ea_sourceID" value="154"/>
+												<UML:TaggedValue tag="ea_targetID" value="155"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-1241;EX=0;EY=0;$LLB=;LLT=;LMT=CX=35:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=245;PtStartY=-1241;PtEndX=131;PtEndY=-1241;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value=":boolean"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="DataOutputStream()" xmi.id="EAID_511D5D96_EC8C_40bf_9239_344C2CF35785" visibility="public" sender="EAID_CA2E8902_F841_4ae5_9DFA_BF4D86F7F6DF" receiver="EAID_CA2E8902_F841_4ae5_9DFA_BF4D86F7F6DF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="13"/>
+												<UML:TaggedValue tag="styleex" value="paramvalues=new FileOutputStream(outFile));"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="121"/>
+												<UML:TaggedValue tag="ea_sourceName" value="dos"/>
+												<UML:TaggedValue tag="ea_targetName" value="dos"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="153"/>
+												<UML:TaggedValue tag="ea_targetID" value="153"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=208:CY=13:OX=40:OY=15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=604;PtStartY=-1046;PtEndX=609;PtEndY=-1061;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value="DataOutputStream(new FileOutputStream(outFile)))"/>
+												<UML:TaggedValue tag="operation_guid" value="{1FA00697-416F-423b-9503-94950FE1CF86}" xmi.id="EAID_B098505F_61A4_44d3_AAA8_AD33229B3AB9"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message xmi.id="EAID_8732DBE1_A818_4fa5_A58E_15F2B7F33BB1" visibility="public" sender="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A" receiver="EAID_CA2E8902_F841_4ae5_9DFA_BF4D86F7F6DF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="12"/>
+												<UML:TaggedValue tag="subtype" value="New"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="120"/>
+												<UML:TaggedValue tag="ea_sourceName" value="outFile"/>
+												<UML:TaggedValue tag="ea_targetName" value="dos"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="146"/>
+												<UML:TaggedValue tag="ea_targetID" value="153"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-44;EX=0;EY=0;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=481;PtStartY=-1011;PtEndX=554;PtEndY=-1011;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="close()" xmi.id="EAID_E66CDFCA_07B3_4562_8D34_B07266B8E1B7" visibility="public" sender="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A" receiver="EAID_CA2E8902_F841_4ae5_9DFA_BF4D86F7F6DF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="15"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="125"/>
+												<UML:TaggedValue tag="ea_sourceName" value="outFile"/>
+												<UML:TaggedValue tag="ea_targetName" value="dos"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="146"/>
+												<UML:TaggedValue tag="ea_targetID" value="153"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-1;EX=0;EY=0;$LLB=;LLT=;LMT=CX=26:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=481;PtStartY=-1117;PtEndX=594;PtEndY=-1117;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value="close()"/>
+												<UML:TaggedValue tag="operation_guid" value="{863BA72D-FB17-4d68-A019-AD277718870F}" xmi.id="EAID_6A0533EE_8FC0_42a5_9F87_D2FB6F51A31E"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="writeBytes(String)" xmi.id="EAID_FC218081_7A01_4200_B5B5_715F9D1D6AA1" visibility="public" sender="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A" receiver="EAID_CA2E8902_F841_4ae5_9DFA_BF4D86F7F6DF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="14"/>
+												<UML:TaggedValue tag="styleex" value="paramvalues=&quot;A Message to Log&quot;;aliasparamsTO=String;"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;params=;paramsDlg=msg;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="124"/>
+												<UML:TaggedValue tag="ea_sourceName" value="outFile"/>
+												<UML:TaggedValue tag="ea_targetName" value="dos"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="146"/>
+												<UML:TaggedValue tag="ea_targetID" value="153"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=127:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=481;PtStartY=-1081;PtEndX=594;PtEndY=-1081;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value="writeBytes(&quot;A Message to Log&quot;)"/>
+												<UML:TaggedValue tag="operation_guid" value="{AF53C84C-DAC9-4c0f-8854-5C6B565B85CE}" xmi.id="EAID_A1A305A1_6D0E_495d_9EEF_FD45FDD29782"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="writeToFile(String, String, boolean, boolean)" xmi.id="EAID_6F92788C_C15F_4ae5_ADE3_97FAE8E5B2A9" visibility="public" sender="EAID_CC6FA241_4C27_42b7_8372_93B3794C5825" receiver="EAID_F6DCAC9A_21CB_41ab_9EA8_84A418B88EEC">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="1"/>
+												<UML:TaggedValue tag="styleex" value="aliasparamsTO=String, String, boolean, boolean;paramvalues=&quot;log.txt&quot;,Dataline, true, true;"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;params=;paramsDlg=fileName, dataLine, isAppendMode, isNewLine;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="110"/>
+												<UML:TaggedValue tag="ea_sourceName" value="in6"/>
+												<UML:TaggedValue tag="ea_targetName" value="futil"/>
+												<UML:TaggedValue tag="ea_sourceType" value="MessageEndpoint"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="142"/>
+												<UML:TaggedValue tag="ea_targetID" value="139"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-28;EX=0;EY=0;$LLB=;LLT=;LMT=CX=209:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=53;PtStartY=-163;PtEndX=335;PtEndY=-163;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;ExtendActivationUp=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value="writeToFile(&quot;log.txt&quot;,Dataline, true, true)"/>
+												<UML:TaggedValue tag="operation_guid" value="{F95DF0D2-4416-40aa-AD2D-50ACA62407C6}" xmi.id="EAID_331415E4_249E_4e83_9225_59507063FC0A"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message xmi.id="EAID_0602DCAE_DE15_4364_9A15_F6AF2D65E025" visibility="public" sender="EAID_F6DCAC9A_21CB_41ab_9EA8_84A418B88EEC" receiver="EAID_D006C5B9_8308_4587_B740_E500A6DA3AC1">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="17"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=boolean;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="1"/>
+												<UML:TaggedValue tag="ea_localid" value="131"/>
+												<UML:TaggedValue tag="ea_sourceName" value="futil"/>
+												<UML:TaggedValue tag="ea_targetName" value="catch"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="InteractionFragment"/>
+												<UML:TaggedValue tag="ea_sourceID" value="139"/>
+												<UML:TaggedValue tag="ea_targetID" value="154"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-23;EX=0;EY=0;$LLB=;LLT=;LMT=CX=35:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=335;PtStartY=-1323;PtEndX=245;PtEndY=-1323;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value=":boolean"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message xmi.id="EAID_54D987A5_480D_47a5_B7DE_24456A119D8F" visibility="public" sender="EAID_F6DCAC9A_21CB_41ab_9EA8_84A418B88EEC" receiver="EAID_D006C5B9_8308_4587_B740_E500A6DA3AC1">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="false"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="16"/>
+												<UML:TaggedValue tag="stereotype" value="false"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=boolean;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="1"/>
+												<UML:TaggedValue tag="ea_localid" value="130"/>
+												<UML:TaggedValue tag="ea_sourceName" value="futil"/>
+												<UML:TaggedValue tag="ea_targetName" value="catch"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="InteractionFragment"/>
+												<UML:TaggedValue tag="ea_sourceID" value="139"/>
+												<UML:TaggedValue tag="ea_targetID" value="154"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C2F5E7F8-B308-4b48-A388-0B5A33BFC751}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=false;@ENDSTEREO;$DES;$CLT={54D987A5-480D-47a5-B7DE-24456A119D8F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-113;EX=0;EY=0;$LLB=;LLT=;LMT=CX=35:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=CX=29:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=335;PtStartY=-1265;PtEndX=245;PtEndY=-1265;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mb" value=" &#xA;«false»"/>
+												<UML:TaggedValue tag="mt" value=":boolean"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message xmi.id="EAID_861E63C4_7E8E_4fb1_ACCA_DD2AB4BF81E8" visibility="public" sender="EAID_F6DCAC9A_21CB_41ab_9EA8_84A418B88EEC" receiver="EAID_D3B8A01F_B78B_4898_98B5_E62065E1B413">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="true"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="18"/>
+												<UML:TaggedValue tag="stereotype" value="true"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=boolean;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="1"/>
+												<UML:TaggedValue tag="ea_localid" value="134"/>
+												<UML:TaggedValue tag="ea_sourceName" value="futil"/>
+												<UML:TaggedValue tag="ea_targetName" value="out 4"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="MessageEndpoint"/>
+												<UML:TaggedValue tag="ea_sourceID" value="139"/>
+												<UML:TaggedValue tag="ea_targetID" value="157"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E6866054-E766-495f-8317-CB7F40FC8071}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=true;@ENDSTEREO;$DES;$CLT={861E63C4-7E8E-4fb1-ACCA-DD2AB4BF81E8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-35;EX=0;EY=0;$LLB=;LLT=;LMT=CX=35:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=CX=26:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=335;PtStartY=-1393;PtEndX=99;PtEndY=-1393;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mb" value=" &#xA;«true»"/>
+												<UML:TaggedValue tag="mt" value=":boolean"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="FileOutputStream(File)" xmi.id="EAID_00A3118B_99F3_47c8_9F88_15ADF6708E8D" visibility="public" sender="EAID_DAC4D8EF_2D13_4f02_9E9C_923A2E9BAEC7" receiver="EAID_DAC4D8EF_2D13_4f02_9E9C_923A2E9BAEC7">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="11"/>
+												<UML:TaggedValue tag="styleex" value="paramvalues=outFile;aliasparamsTO=File;"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="params=;paramsDlg=outFile;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="119"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="152"/>
+												<UML:TaggedValue tag="ea_targetID" value="152"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-15;EX=0;EY=0;$LLB=;LLT=;LMT=CX=104:CY=13:OX=40:OY=15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=608;PtStartY=-932;PtEndX=613;PtEndY=-947;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value="FileOutputStream(outFile)"/>
+												<UML:TaggedValue tag="operation_guid" value="{DB40B441-3526-4d57-9685-711E40D379DC}" xmi.id="EAID_CB1A6892_0128_4241_83FE_5729D51B148B"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message xmi.id="EAID_7530BF38_CDDB_4125_9F5A_6E0CA11120D5" visibility="public" sender="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A" receiver="EAID_DAC4D8EF_2D13_4f02_9E9C_923A2E9BAEC7">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="10"/>
+												<UML:TaggedValue tag="subtype" value="New"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="118"/>
+												<UML:TaggedValue tag="ea_sourceName" value="outFile"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="146"/>
+												<UML:TaggedValue tag="ea_targetID" value="152"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-14;EX=0;EY=0;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=481;PtStartY=-882;PtEndX=558;PtEndY=-882;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message xmi.id="EAID_7208AE58_1044_4033_AD53_0A4BBF002331" visibility="public" sender="EAID_F6DCAC9A_21CB_41ab_9EA8_84A418B88EEC" receiver="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="2"/>
+												<UML:TaggedValue tag="subtype" value="New"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="111"/>
+												<UML:TaggedValue tag="ea_sourceName" value="futil"/>
+												<UML:TaggedValue tag="ea_targetName" value="outFile"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="139"/>
+												<UML:TaggedValue tag="ea_targetID" value="146"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-108;EX=0;EY=0;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=345;PtStartY=-306;PtEndX=431;PtEndY=-306;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+										<UML:Message name="File(String)" xmi.id="EAID_B4E93C4D_0610_4fee_9E62_D20A4505B078" visibility="public" sender="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A" receiver="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="1"/>
+												<UML:TaggedValue tag="ea_type" value="Sequence"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="1"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="3"/>
+												<UML:TaggedValue tag="styleex" value="paramvalues=&quot;log.txt&quot;;aliasparamsTO=String;"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;params=;paramsDlg=str;"/>
+												<UML:TaggedValue tag="privatedata3" value="Call"/>
+												<UML:TaggedValue tag="privatedata4" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="112"/>
+												<UML:TaggedValue tag="ea_sourceName" value="outFile"/>
+												<UML:TaggedValue tag="ea_targetName" value="outFile"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Object"/>
+												<UML:TaggedValue tag="ea_targetType" value="Object"/>
+												<UML:TaggedValue tag="ea_sourceID" value="146"/>
+												<UML:TaggedValue tag="ea_targetID" value="146"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-149;EX=0;EY=-149;$LLB=;LLT=;LMT=CX=53:CY=13:OX=40:OY=15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=481;PtStartY=-490;PtEndX=486;PtEndY=-505;"/>
+												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+												<UML:TaggedValue tag="mt" value="File(&quot;log.txt&quot;)"/>
+												<UML:TaggedValue tag="operation_guid" value="{AEFBB386-6DFF-4549-8B98-329585500C59}" xmi.id="EAID_A06A3C1A_24C1_4c79_B12A_ED4E0EFA77F8"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Message>
+									</UML:Interaction.message>
+								</UML:Interaction>
+							</UML:Collaboration.interaction>
+						</UML:Collaboration>
+						<UML:Class name="if" xmi.id="EAID_242DEC8C_6B05_4f3f_8FF6_7FB8E8C3F571" visibility="public" namespace="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="InteractionFragment"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+								<UML:TaggedValue tag="date_created" value="2020-02-15 15:45:34"/>
+								<UML:TaggedValue tag="date_modified" value="2020-02-15 15:45:49"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Isabel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="143"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CB8B7107-C5C2-41ae-8E0B-30847AE0691A}$XID;$NAM=Partitions$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PAR;Name=isNewLine;Size=104;GUID={EAAB5D8C-0BEF-4d0d-BC21-C1F7217FE6AF};@ENDPAR;$DES;$CLT={242DEC8C-6B05-4f3f-8FF6-7FB8E8C3F571}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="if" xmi.id="EAID_59B907B3_9D07_4289_B58B_DBFDB1576FED" visibility="public" namespace="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="InteractionFragment"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+								<UML:TaggedValue tag="date_created" value="2020-02-15 15:50:27"/>
+								<UML:TaggedValue tag="date_modified" value="2020-02-15 15:50:40"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Isabel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="149"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4235FCE0-D1AA-43ad-8E2F-00BEB1A232C8}$XID;$NAM=Partitions$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PAR;Name=else;Size=313;GUID={357E046D-CFE1-40ab-8E59-DB8BB55144DE};@ENDPAR;@PAR;Name=isAppendMode;Size=312;GUID={324D9D71-760B-4fde-881F-687C5DCF7273};@ENDPAR;$DES;$CLT={59B907B3-9D07-4289-B58B-DBFDB1576FED}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:UseCase name="Escribir archivo" xmi.id="EAID_AC51E815_3332_410c_A77A_E28AB29CED9D" visibility="public" namespace="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="8"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+								<UML:TaggedValue tag="date_created" value="2020-02-15 12:09:35"/>
+								<UML:TaggedValue tag="date_modified" value="2020-02-15 16:32:52"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Isabel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="38"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={85E6CAD0-79F0-4036-AB8A-8A32A970233C}$XID;$NAM=DefaultDiagram$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$CLT={AC51E815-3332-410c-A77A-E28AB29CED9D}$CLT;$SUP={80938D5C-6D62-436b-9B82-933BDDFB67F9}$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:Association xmi.id="EAID_2441FC04_2BA5_44c9_B442_8E49CF298E06" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="include"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="UseCase"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="subtype" value="Includes"/>
+								<UML:TaggedValue tag="stereotype" value="include"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«include»"/>
+								<UML:TaggedValue tag="ea_localid" value="18"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Guardar mensaje en archivo"/>
+								<UML:TaggedValue tag="ea_targetName" value="Escribir archivo"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="37"/>
+								<UML:TaggedValue tag="ea_targetID" value="38"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A9246CD7-87AB-462c-80AE-7F299A86CC5E}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=include;@ENDSTEREO;$DES;$CLT={2441FC04-2BA5-44c9-B442-8E49CF298E06}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«include»"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_E214F840_4E28_46ca_A796_DFEA85F88676">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_AC51E815_3332_410c_A77A_E28AB29CED9D">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Class name="out 4" xmi.id="EAID_CA0ACCD2_7043_4955_8C1C_3BD3BC928CDA" visibility="public" namespace="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="MessageEndpoint"/>
+								<UML:TaggedValue tag="ea_ntype" value="2"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+								<UML:TaggedValue tag="date_created" value="2020-02-15 16:00:33"/>
+								<UML:TaggedValue tag="date_modified" value="2020-02-15 16:00:42"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Isabel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="155"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="in6" xmi.id="EAID_CC6FA241_4C27_42b7_8372_93B3794C5825" visibility="public" namespace="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="MessageEndpoint"/>
+								<UML:TaggedValue tag="ea_ntype" value="2"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+								<UML:TaggedValue tag="date_created" value="2020-02-15 15:43:50"/>
+								<UML:TaggedValue tag="date_modified" value="2020-02-15 15:43:53"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Isabel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="142"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="catch" xmi.id="EAID_D006C5B9_8308_4587_B740_E500A6DA3AC1" visibility="public" namespace="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="InteractionFragment"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+								<UML:TaggedValue tag="date_created" value="2020-02-15 15:59:53"/>
+								<UML:TaggedValue tag="date_modified" value="2020-02-15 15:59:57"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Isabel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="154"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4DD0B742-46CE-4035-9BD3-9EA1FFF016DF}$XID;$NAM=Partitions$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PAR;Name=IOException ex;Size=76;GUID={BC40B382-B59F-4189-B7EF-871D12800703};@ENDPAR;@PAR;Name=FileNotFoundException ex;Size=74;GUID={803BE950-D000-4f98-894F-398364808509};@ENDPAR;$DES;$CLT={D006C5B9-8308-4587-B740-E500A6DA3AC1}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="out 4" xmi.id="EAID_D3B8A01F_B78B_4898_98B5_E62065E1B413" visibility="public" namespace="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="MessageEndpoint"/>
+								<UML:TaggedValue tag="ea_ntype" value="2"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+								<UML:TaggedValue tag="date_created" value="2020-02-15 16:05:14"/>
+								<UML:TaggedValue tag="date_modified" value="2020-02-15 16:05:17"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Isabel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="157"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Comment xmi.id="EAID_D680F8AB_A2CE_4a62_A072_ECB090F6DA5D" visibility="public" namespace="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#6a3e3e&quot;&gt;dataLine&lt;/font&gt; = &lt;font color=&quot;#2a00ff&quot;&gt;&quot;\n&quot;&lt;/font&gt; + &lt;font color=&quot;#6a3e3e&quot;&gt;dataLine&lt;/font&gt;;"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+								<UML:TaggedValue tag="date_created" value="2020-02-15 16:03:41"/>
+								<UML:TaggedValue tag="date_modified" value="2020-02-15 16:03:43"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Isabel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="156"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Class xmi.id="EAID_F00E242E_3EA1_45ea_A3AD_9F594EAD2C7F" visibility="public" namespace="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="InteractionFragment"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+								<UML:TaggedValue tag="date_created" value="2020-02-15 15:45:56"/>
+								<UML:TaggedValue tag="date_modified" value="2020-02-15 15:45:56"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Escribir archivo"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Isabel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="144"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="Escribir archivo" xmi.id="EAID_80938D5C_6D62_436b_9B82_933BDDFB67F9" diagramType="SequenceDiagram" owner="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Isabel"/>
+				<UML:TaggedValue tag="created_date" value="2020-02-15 15:42:06"/>
+				<UML:TaggedValue tag="modified_date" value="2020-02-15 16:05:38"/>
+				<UML:TaggedValue tag="package" value="EAPK_4F72533D_C37A_4902_A20F_040AF4A97EFE"/>
+				<UML:TaggedValue tag="type" value="Sequence"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="23"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=2;DocSize.cx=728;DocSize.cy=1071;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=EC1BB360;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;INT_ARGS=;INT_RET=;INT_ATT=;SeqTopMargin=50;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=245;Top=1189;Right=545;Bottom=1339;" subject="EAID_D006C5B9_8308_4587_B740_E500A6DA3AC1" seqno="1" style="DUID=853065CC;"/>
+				<UML:DiagramElement geometry="Left=412;Top=471;Right=712;Bottom=1096;" subject="EAID_59B907B3_9D07_4289_B58B_DBFDB1576FED" seqno="2" style="DUID=14347448;"/>
+				<UML:DiagramElement geometry="Left=370;Top=341;Right=769;Bottom=445;" subject="EAID_242DEC8C_6B05_4f3f_8FF6_7FB8E8C3F571" seqno="3" style="DUID=4A26A1B7;"/>
+				<UML:DiagramElement geometry="Left=85;Top=1386;Right=99;Bottom=1400;" subject="EAID_D3B8A01F_B78B_4898_98B5_E62065E1B413" seqno="4" style="DUID=EC2D57FE;LBL=CX=20:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=117;Top=1234;Right=131;Bottom=1248;" subject="EAID_CA0ACCD2_7043_4955_8C1C_3BD3BC928CDA" seqno="5" style="DUID=E29F5ED3;LBL=CX=20:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=554;Top=50;Right=644;Bottom=1536;" subject="EAID_CA2E8902_F841_4ae5_9DFA_BF4D86F7F6DF" seqno="6" style="DUID=1D0FEFED;"/>
+				<UML:DiagramElement geometry="Left=558;Top=50;Right=648;Bottom=1536;" subject="EAID_DAC4D8EF_2D13_4f02_9E9C_923A2E9BAEC7" seqno="7" style="DUID=E8C2F05F;"/>
+				<UML:DiagramElement geometry="Left=561;Top=50;Right=651;Bottom=1536;" subject="EAID_351CCAD3_1D74_4d87_A2A4_FA3842D73DFC" seqno="8" style="DUID=C194F322;"/>
+				<UML:DiagramElement geometry="Left=452;Top=365;Right=567;Bottom=420;" subject="EAID_D680F8AB_A2CE_4a62_A072_ECB090F6DA5D" seqno="9" style="DUID=033309C8;"/>
+				<UML:DiagramElement geometry="Left=602;Top=50;Right=692;Bottom=1536;" subject="EAID_11D4B6BD_1F19_4e6f_B2EF_285938192E4F" seqno="10" style="DUID=4CC99326;"/>
+				<UML:DiagramElement geometry="Left=431;Top=50;Right=521;Bottom=1536;" subject="EAID_EE87CA95_1177_4bb0_A1C0_971B582BD69A" seqno="11" style="DUID=0D202126;"/>
+				<UML:DiagramElement geometry="Left=295;Top=50;Right=385;Bottom=1536;" subject="EAID_F6DCAC9A_21CB_41ab_9EA8_84A418B88EEC" seqno="12" style="DUID=2B756AE8;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=39;Top=156;Right=53;Bottom=170;" subject="EAID_CC6FA241_4C27_42b7_8372_93B3794C5825" seqno="13" style="DUID=515A1AE1;LBL=CX=12:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=386;Top=463;Right=735;Bottom=1165;" subject="EAID_7771356D_C559_4bb2_8429_5A7530607DEE" seqno="14" style="DUID=86706A9F;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_51D7011C_1D1C_40cb_BC27_FA549AF6CF86" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_6F92788C_C15F_4ae5_ADE3_97FAE8E5B2A9" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_7208AE58_1044_4033_AD53_0A4BBF002331" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_B4E93C4D_0610_4fee_9E62_D20A4505B078" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_0F50EE51_F1DC_41a5_84DF_C8C775DB0F72" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_DBE172A6_5B07_40f3_B8E9_76762D2EBD5E" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_E7183253_494B_423d_BF99_0A7D04FE9B23" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_8823F0B0_E763_4e2a_B65C_BF8020393E95" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_AEF5BFB9_C070_40a8_9B5A_15C6373E7C60" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_787716E7_15D6_441e_B0D4_E1A704C26E0E" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_7530BF38_CDDB_4125_9F5A_6E0CA11120D5" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_00A3118B_99F3_47c8_9F88_15ADF6708E8D" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_8732DBE1_A818_4fa5_A58E_15F2B7F33BB1" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_511D5D96_EC8C_40bf_9239_344C2CF35785" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_FC218081_7A01_4200_B5B5_715F9D1D6AA1" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_E66CDFCA_07B3_4562_8D34_B07266B8E1B7" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_54D987A5_480D_47a5_B7DE_24456A119D8F" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_0602DCAE_DE15_4364_9A15_F6AF2D65E025" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_861E63C4_7E8E_4fb1_ACCA_DD2AB4BF81E8" style=";Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:DiagramElement geometry="Left=863;Top=313;Right=968;Bottom=383;" subject="EAID_AC51E815_3332_410c_A77A_E28AB29CED9D" seqno="5" style="DUID=DE25E8AD;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_53DB28B3_0D71_4af7_80F3_2EA9E9D9460E"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=38:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_2441FC04_2BA5_44c9_B442_8E49CF298E06" style="Mode=3;EOID=DE25E8AD;SOID=444546BF;Color=-1;LWidth=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_53DB28B3_0D71_4af7_80F3_2EA9E9D9460E"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=38:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_2441FC04_2BA5_44c9_B442_8E49CF298E06" style="Mode=3;EOID=DE25E8AD;SOID=444546BF;Color=-1;LWidth=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_53DB28B3_0D71_4af7_80F3_2EA9E9D9460E"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_E214F840_4E28_46ca_A796_DFEA85F88676" name="Guardar mensaje en archivo" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_F6DCAC9A_21CB_41ab_9EA8_84A418B88EEC" name="futil" UMLType="Object"/>
+	</XMI.extensions>
+</XMI>

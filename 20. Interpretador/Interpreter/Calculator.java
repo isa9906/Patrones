@@ -45,7 +45,7 @@ public class Calculator {
   public int evaluate() {
     //infix to Postfix
     String pfExpr = infixToPostFix(expression);
-
+    //System.out.println(pfExpr);
     //build the Binary Tree
     Expression rootNode = buildTree(pfExpr);
 

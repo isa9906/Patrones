@@ -180,8 +180,7 @@ class ButtonHandler implements ActionListener {
       if (type.equals(AccountManager.WITHDRAW)) {
         BusinessAccount account =
           objAccountManager.getAccount();
-        result = account.withdraw(
-                   new Double(amount).doubleValue());
+        result = account.withdraw(new Double(amount).doubleValue());
       }
       if (result) {
         searchResult =
